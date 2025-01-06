@@ -1,0 +1,98 @@
+/* dashboard */
+
+*,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    margin-left: 100px;
+    margin-right: 400px;
+    justify-content: center;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash {
+    color: white;
+    width: 75x;
+    height: auto;
+    margin: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.dash:hover {
+    color: red;
+    cursor: copy;
+}
+
+.ICON {
+    position: absolute;
+    top: 0;
+    right: -870px;
+    margin-top: 20px;
+    /* Opsional: Memberikan sedikit jarak dari tepi */
+}
+
+.icon {
+    height: auto;
+    width: 10%;
+}
+
+
+/* content */
+
+.goku {
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.image-content {
+    border-radius: 50px;
+}
+
+.instagram h1 {
+    color: white;
+    margin: 0;
+    font-size: 100px;
+}
+
+.instagram {
+    position: absolute;
+    top: 130px;
+    /* Posisi teks lebih tinggi */
+    left: 20px;
+    /* Memberikan jarak dari kiri */
+    color: white;
+    text-align: left;
+    padding: 20px;
+    /* Memberikan ruang di sekitar teks */
+    width: 600px;
+    /* Memberikan batasan lebar agar teks tidak terlalu lebar */
+}
+
+
+/* bawah */
+
+.bawah {
+    display: flex;
+}
+
+.sosmed {
+    width: 70px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+}
